@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Agro Cards</title>
+
+    <link rel="shortcut icon" href="src/imagens/png-tractor-farm.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/png-tractor-farm.png" alt="tratorpng" class="tratorpng"/>
+      <h1 class="titulo">Agro Cards</h1>
+    </header>
+
+    <!-- pokemon-slider p agro-cards lista-pokemons p lista-trator nome p marca hp p cv-->
+
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">John Deere 5078E</h2>
+            <p class="vida">CV 78</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto"> Um trator versátil, pode ser tanto cabinado quanto plataformado. Ideal para realização de grande parte das operações diárias das propriedades de médio porte, conta com equipamentos passíveis de acoplar lâminas ou carregadoras frontais, roçadeiras ou outros acessórios disponíveis e compatíveis presentes no mercado de máquinas e implementos agrícolas. Para os produtores que adquirirem este equipamento em uma das concessionárias da rede, o fabricante fornece garantia de 3 anos ou 2000h de uso, desde que sejam seguidas as manutenções com peças e serviços via concessionário.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Massey Ferguson 4707</h2>
+            <p class="vida">CV 79</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Esse trator vem se destacando no mercado pela possibilidade de sair configurado cabinado ou não, além de oferecer capacidade opcional de telemetria para melhor gestão do equipamento. Com motor aspirado AGCO Power de 3 cilindros e turbo intercooler, o equipamento merece destaque pela sua capacidade de entrega de potência e grande eficiência no consumo de combustível.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Fendt 207 vario</h2>
+            <p class="vida">CV 79</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">O Fendt 207 Vario é conhecido por ser um trator compacto e ligeiro com máxima manobrabilidade e alto rendimento.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <div class="informacoes">
+            <h2 class="nome">New Holland T4</h2>
+            <p class="vida">CV 88</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/newhollandt4.png" alt="Mewtwo" class="imagem-pokemon"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">O trator New Holland T4 é lider mundial na categoria de estreitos. Essa é uma linha especial, desenvolvida para culturas específicas, como cafeicultura e fruticultura, que necessitam de dimensões reduzidas.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <div class="informacoes">
+            <h2 class="nome">Valtra A2R</h2>
+            <p class="vida">CV 89</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/valtraa2r.png" alt="Mewtwo" class="imagem-pokemon"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">A versatilidade desse trator fica por conta das opções de transmissão. Uma máquina multiuso no campo, disponível em 4 versões: Standard, para transmissão de simples operação; Multiplicador, para quem busca precisão na velocidade de trabalho; Redutor, para aqueles que precisam de alto torque em baixas velocidades de deslocamento; e Reversão Mecânica, para mais agilidade nas manobras.</p>
+          </div>
+        </li>
+
+      </ul>
+
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>  
+  </body>
+</html>
